@@ -1,12 +1,12 @@
-Algoritmo "Elaição Sindical"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "EleiÃ§Ã£o Sindical"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson
-// Descrição   :
+// DescriÃ§Ã£o   :
 
 // Autor(a)    : Gyovanna
 // Data atual  : 08/09/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 vtA,vtB,vtC : inteiro
 vtV,vtBr,vtN : inteiro
 total: inteiro
@@ -16,8 +16,8 @@ pcA,pcB,pcC : real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite a quantidade de votos Válidos:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite a quantidade de votos VÃ¡lidos:")
 Leia(vtV)
 Escreval("Digite a quantidade de votos Brancos:")
 Leia(vtBr)
@@ -43,7 +43,7 @@ Escreval("Percentual candidato C:",pcC)
 pcBr <- (vtBr*100)/total
 pcN <- (vtN*100)/total
 
-Escreval("Percentual votos Válidos:", pcV)
+Escreval("Percentual votos VÃ¡lidos:", pcV)
 Escreval("Percentual votos Brancos:", pcBr)
 Escreval("Percentual votos Nulos:", pcN)
 
